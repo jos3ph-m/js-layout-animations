@@ -24,4 +24,5 @@ nav {
 .nav-links a{
   text-decoration: none;
   color: #252525;
+  font-weight: bold;
 }
