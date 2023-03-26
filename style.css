@@ -26,3 +26,7 @@ nav {
   color: #252525;
   font-weight: bold;
 }
+
+.active-nav {
+  height: 3px;
+}
