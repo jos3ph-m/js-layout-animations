@@ -1,3 +1,3 @@
 gsap.registerPlugin(Flip);
 
-const links = document.querySelectorAll('.nav');
+const links = document.querySelectorAll('.nav-item a');
