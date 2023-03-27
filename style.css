@@ -28,7 +28,6 @@ nav {
 }
 
 .nav-item {
-  background: lightblue;
   position: relative;
 }
 
@@ -38,6 +37,6 @@ nav {
   border-radius: 1rem;
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: -8px;
   width: 100%;
 }
