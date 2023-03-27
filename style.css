@@ -31,4 +31,5 @@ nav {
   height: 3px;
   background: #385ae0;
   border-radius: 1rem;
+  position: absolute;
 }
