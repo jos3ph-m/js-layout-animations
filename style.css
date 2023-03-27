@@ -29,6 +29,7 @@ nav {
 
 .nav-item {
   background: lightblue;
+  position: relative;
 }
 
 .active-nav {
