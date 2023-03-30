@@ -7,10 +7,12 @@ links.forEach((link) => {
   link.addEventListener('click', () => {
     // Turn navs blue
     gsap.to(links, { color: '#252525' });
-  });
-  if (document.activeElement === link) {
-    gsap.to(link, { color: '#385ae0' });
-  }
 
-  // Move the line
+    if (document.activeElement === link) {
+      gsap.to(link, { color: '#385ae0' });
+    }
+
+    // Move the line
+    const state = Flip.getState(activeNav);
+  });
 });
