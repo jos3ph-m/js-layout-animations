@@ -4,11 +4,11 @@ const links = document.querySelectorAll('.nav-item a');
 const activeNav = document.querySelector('.active-nav');
 
 links.forEach((link) => {
-  link.addEventListener('click', (e) => {
+  link.addEventListener('click', () => {
     gsap.to(links, { color: '#252525' });
   });
 
-  if (document.activeElement === e.target) {
+  if (document.activeElement === link) {
     gsap.to(link, { color: '#385ae0' });
   }
 });
