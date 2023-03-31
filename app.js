@@ -16,7 +16,7 @@ links.forEach((link) => {
     const state = Flip.getState(activeNav);
     link.appendChild(activeNav);
     Flip.from(state, {
-      duration: 0.6,
+      duration: 0.5,
       absolute: true,
     });
   });
