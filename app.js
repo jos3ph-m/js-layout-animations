@@ -14,5 +14,6 @@ links.forEach((link) => {
 
     // Move the line
     const state = Flip.getState(activeNav);
+    link.appendChild(activeNav);
   });
 });
