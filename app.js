@@ -18,7 +18,7 @@ links.forEach((link) => {
     Flip.from(state, {
       duration: 0.3,
       absolute: true,
-      ease: 'elastic.out()',
+      ease: 'elastic.out(0.1, 0.5)',
     });
   });
 });
