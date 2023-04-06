@@ -47,4 +47,5 @@ section {
 
 .card{
   height: 15rem;
+  border-radius: 1rem;
 }
