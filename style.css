@@ -49,4 +49,6 @@ section {
   height: 15rem;
   border-radius: 1rem;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
 }
