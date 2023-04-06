@@ -44,3 +44,7 @@ nav {
 section {
   display: grid;
 }
+
+.card{
+  height: 15rem;
+}
