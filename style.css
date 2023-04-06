@@ -43,6 +43,7 @@ nav {
 
 section {
   display: grid;
+  grid-template-columns: repeat(6, 1fr);
 }
 
 .card{
