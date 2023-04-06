@@ -60,5 +60,5 @@ section {
   grid-column: span 3;
   font-size: 1.2rem;
   padding: 5rem;
-  box-shadow: 0.7rem 0.7rem 0rem black;
+  box-shadow: 0.7rem 0.7rem 0rem rgb(26, 26, 26);
 }
