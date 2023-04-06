@@ -57,4 +57,5 @@ section {
   justify-content: center;
   align-items: center;
   background-color: #93a9ff;
+  grid-column: span 3;
 }
