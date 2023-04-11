@@ -73,3 +73,7 @@ section {
 .card.active p {
   display: block;
 }
+
+.card.active {
+  grid-column: 1 / span 6;
+}
