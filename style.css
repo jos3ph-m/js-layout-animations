@@ -69,3 +69,7 @@ section {
   line-height: 2rem;
   display: none;
 }
+
+.card.active p {
+  display: block;
+}
