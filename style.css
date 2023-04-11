@@ -78,4 +78,9 @@ section {
   grid-column: 1 / span 6;
   grid-row: 1;
   order: 0;
+  height: auto;
+}
+
+.card.is-inactive {
+  grid-column: span 2;
 }
