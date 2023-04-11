@@ -62,4 +62,5 @@ section {
   padding: 5rem;
   box-shadow: 0.7rem 0.7rem 0rem rgb(26, 26, 26);
   border: 4px solid rgb(26, 26, 26);
+  gap: 2rem;
 }
