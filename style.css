@@ -67,4 +67,5 @@ section {
 
 .card p{
   line-height: 2rem;
+  display: none;
 }
