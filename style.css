@@ -76,4 +76,6 @@ section {
 
 .card.active {
   grid-column: 1 / span 6;
+  grid-row: 1;
+  order: 0;
 }
