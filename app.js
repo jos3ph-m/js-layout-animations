@@ -24,3 +24,4 @@ links.forEach((link) => {
 });
 
 // Cards
+const cards = document.querySelectorAll('.card');
