@@ -33,5 +33,6 @@ cards.forEach((card, index) => {
 
     //Add the active class to the clicked card and add inactive to others
     const isCardActive = card.classList.contains('active');
+    cards.forEach(() => {});
   });
 });
