@@ -30,5 +30,7 @@ cards.forEach((card, index) => {
   card.addEventListener('click', () => {
     //Get State
     const state = Flip.getState(cards);
+
+    //Add the active class to the clicked card and add inactive to others
   });
 });
