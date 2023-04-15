@@ -35,7 +35,6 @@ cards.forEach((card, index) => {
     const isCardActive = card.classList.contains('active');
     cards.forEach((otherCard, otherIndex) => {
       otherCard.classList.remove('active');
-      otherCard.classList.remove('is-inactive');
     });
   });
 });
