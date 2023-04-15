@@ -42,6 +42,8 @@ cards.forEach((card, index) => {
     });
     if (!isCardActive) card.classList.add('active');
 
-    Flip.from(state, {});
+    Flip.from(state, {
+      duration: 1,
+    });
   });
 });
