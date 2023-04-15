@@ -37,5 +37,6 @@ cards.forEach((card, index) => {
       otherCard.classList.remove('active');
       otherCard.classList.remove('is-inactive');
     });
+    if (!isCardActive) card.classList.add('active');
   });
 });
