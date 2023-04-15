@@ -44,6 +44,7 @@ cards.forEach((card, index) => {
 
     Flip.from(state, {
       duration: 1,
+      ease: 'expo.out',
     });
   });
 });
