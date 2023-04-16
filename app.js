@@ -43,7 +43,7 @@ cards.forEach((card, index) => {
     if (!isCardActive) card.classList.add('active');
 
     Flip.from(state, {
-      duration: 0.9,
+      duration: 1,
       ease: 'expo.out',
       absolute: true,
     });
