@@ -42,7 +42,7 @@ cards.forEach((card, index) => {
     });
     if (!isCardActive) card.classList.add('active');
 
-    // GSAP settings
+    // GSAP settings:
     Flip.from(state, {
       duration: 1,
       ease: 'expo.out',
