@@ -44,7 +44,7 @@ cards.forEach((card, index) => {
 
     // GSAP settings:
     Flip.from(state, {
-      duration: 1.5,
+      duration: 1.4,
       ease: 'expo.out',
       absolute: true,
     });
