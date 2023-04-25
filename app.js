@@ -50,6 +50,5 @@ cards.forEach((card, index) => {
       ease: 'expo.out',
       absolute: true,
     });
-    console.log(state);
   });
 });
