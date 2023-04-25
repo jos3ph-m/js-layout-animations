@@ -31,6 +31,8 @@ cards.forEach((card, index) => {
     //Get State
     const state = Flip.getState(cards);
 
+    console.log(state);
+
     //Add the active class to the clicked card and add inactive to others
     const isCardActive = card.classList.contains('active');
     cards.forEach((otherCard, otherIndex) => {
